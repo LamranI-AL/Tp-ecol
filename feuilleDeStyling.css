@@ -1,0 +1,15 @@
+body{
+    background-color: #EEEEEF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 8px;
+
+}
+P{
+    text-indent: 12;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}

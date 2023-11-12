@@ -1,0 +1,120 @@
+body{
+    background-color: #F5FCEE;/* pour assuer que la page ne prend pas le couleur par defaut de votre pc  */
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    background-color:#F5FCEE;
+    color:#cce7af;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    font-family: Arial, Helvetica, sans-serif; /*je suis othmaneet je prend ce nom de ce font dans google */
+
+}
+
+nav img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Style the main navigation items */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00564C;
+    padding: 10px;
+    display: block;
+}
+nav>a:hover{
+    background: #ffffff;
+}
+
+
+/*  dropdown menu */
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #cce7af;
+    border-radius: 0 0 4px 4px;
+    font-family: "Lucida Console", "Courier New", monospace;/* aussi ce font */
+}
+/* dropdown links */
+nav ul ul a {
+    padding: 10px;
+    color: #00564C;
+    display: block;
+}
+
+
+
+nav ul li:hover>ul {
+    display: inherit;
+}
+
+nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+nav a:hover {
+    background-color:#cce7af;
+    /* border-color: yellow; */
+    /* border-radius: 15%; */
+    color: #000000;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.hero {
+    background: url('_656b62b2-5fee-4ab0-97cf-244d5100303a.jpg') center/cover no-repeat;
+    /*pour genirer C'est une image  j'utilise le sit "https: //www.bing.com/images/"*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+p {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+}
+
+/* j'essay de prend les couleur dans ce site web "https: //coolors.co" par ce que je ne prend pas une formation pour les combinaison de couleur hh */
